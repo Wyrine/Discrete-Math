@@ -1,0 +1,1 @@
+n is 1000 and the solution is 500500 with the time it took to find that solution being 7e-06
