@@ -12,7 +12,7 @@ int main(){
   if(n < 1)
     cout << "Sorry but that's not a valid input. Must be 1 or greater.\n";
   else{
-    ofstream output("algorithmicSol.txt");
+    ofstream output("algorithmicSol.txt", ios_base::app);
     double startTime = clock();
     solution = n*(n+1)/2;
     double endTime = clock();

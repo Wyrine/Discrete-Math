@@ -1,1 +1,11 @@
-n is 10000 and the solution is 50005000 with the time it took to find that solution being 3e-06
+Solving the problem using an equation
+
+n is 10 and the solution is 55 with the time it took to find that solution being 2e-06
+n is 20 and the solution is 210 with the time it took to find that solution being 3e-06
+n is 100 and the solution is 5050 with the time it took to find that solution being 4e-06
+n is 1000 and the solution is 500500 with the time it took to find that solution being 2e-06
+n is 10000 and the solution is 50005000 with the time it took to find that solution being 2e-06
+n is 100000 and the solution is 705082704 with the time it took to find that solution being 2e-06
+n is 10000000 and the solution is 143223616 with the time it took to find that solution being 3e-06
+n is 100000000 and the solution is 987459712 with the time it took to find that solution being 3e-06
+n is 1000000000 and the solution is -243309312 with the time it took to find that solution being 3e-06

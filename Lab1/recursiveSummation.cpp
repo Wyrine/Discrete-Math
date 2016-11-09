@@ -14,7 +14,7 @@ int main(){
   if(n < 1)
     cout << "Sorry but that's not a valid input. Must be 1 or greater.\n";
   else{
-    ofstream output("recursiveSol.txt");
+    ofstream output("recursiveSol.txt", ios_base::app);
     double startTime = clock();
     solution = s(n);
     double endTime = clock();

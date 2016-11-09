@@ -1,1 +1,9 @@
-n is 1000 and the solution is 500500 with the time it took to find that solution being 7e-06
+Solving the problem using iteration:
+
+n is 10 and the solution is 55 with the time it took to find that solution being 2e-06
+n is 100 and the solution is 5050 with the time it took to find that solution being 4e-06
+n is 1000 and the solution is 500500 with the time it took to find that solution being 6e-06
+n is 10000 and the solution is 50005000 with the time it took to find that solution being 4.2e-05
+n is 100000 and the solution is 705082704 with the time it took to find that solution being 0.000397
+n is 1000000 and the solution is 1784293664 with the time it took to find that solution being 0.003586
+n is 10000000 and the solution is -2004260032 with the time it took to find that solution being 0.027128

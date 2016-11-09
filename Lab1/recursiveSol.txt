@@ -1,1 +1,7 @@
-n is 10000 and the solution is 50005008 with the time it took to find that solution being 4.1e-05
+Solving the problem using recursion:
+
+n is 10 and the solution is 55 with the time it took to find that solution being 2e-06
+n is 100 and the solution is 5050 with the time it took to find that solution being 3e-06
+n is 1000 and the solution is 500500 with the time it took to find that solution being 1.9e-05
+n is 10000 and the solution is 50005000 with the time it took to find that solution being 0.000259
+n is 100000 and the solution is 705082704 with the time it took to find that solution being 0.002507
