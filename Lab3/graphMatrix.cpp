@@ -13,7 +13,7 @@ int getDegree(int *node, int adjacency);
 int main(){
   //variables needed
   int n, node1AndChoice, node2AndChoice, menuChoice, i, j, numOddNodes = 0;
-  char junk;
+  char buffer;
   cout << "Welcome to the adjacency relation program! Please input the number of\n";
   cout << "nodes there are in your graph: ";
   cin >> n;
@@ -28,17 +28,17 @@ int main(){
       adjacencyMatrix[i][j] = 0;
   cout << "Please input a binary relation for the nodes in your graph:\n";
   //reading in the first curly brace
-  cin >> junk;
+  cin >> buffer;
   do{
-    //reading in the set of relations and an extra character as junk
-    cin >> junk >> node1AndChoice >> junk >> node2AndChoice >> junk >> junk;
+    //reading in the set of relations and an extra character as buffer
+    cin >> buffer >> node1AndChoice >> buffer >> node2AndChoice >> buffer >> buffer;
     //if the two relations are the same, there is a loop so
     //the adjacency at that location is 2
     if(node1AndChoice == node2AndChoice) adjacencyMatrix[node1AndChoice -1][node2AndChoice-1] = 2;
     //otherwise just set the given node's adjacency to 1
     else adjacencyMatrix[node1AndChoice-1][node2AndChoice-1] = 1;
-  //the break condition is if the last junk character read is a '}'
-  }while(junk != '}');
+  //the break condition is if the last buffer character read is a '}'
+}while(buffer != '}');
   //updating the degree array to the proper value per node
   for(i = 0; i < n; i++){
     degree[i] = getDegree(adjacencyMatrix[i], n);
