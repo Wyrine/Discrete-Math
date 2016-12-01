@@ -1,3 +1,9 @@
+//Kirolos Shahat
+//Lab 4 Finite State machine recognizer
+//This machine is built to recognize the following:
+//a*b*ab
+//and print 1 if recognized and 0 if not
+ 
 #include <iostream>
 
 //making the code a little prettier
